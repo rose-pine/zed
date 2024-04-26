@@ -28,7 +28,7 @@
 
 ### Rosé Pine Dawn
 
-![image](https://github.com/rose-pine/zed/assets/44733677/c878b0b5-74c9-43ac-8cb3-6738407baaaa)
+![image](https://github.com/rose-pine/zed/assets/44733677/044b63e7-c3e4-4ade-8868-919ee81caf93)
 
 ## Thanks to
 
