@@ -168,13 +168,13 @@
             "color": "#b4637a"
           },
           "punctuation": {
-            "color": "#56949f"
+            "color": "#797593"
           },
           "punctuation.bracket": {
             "color": "#797593"
           },
           "punctuation.delimiter": {
-            "color": "#56949f"
+            "color": "#797593"
           },
           "punctuation.list_marker": {
             "color": "#56949f",

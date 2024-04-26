@@ -3,19 +3,19 @@
     "\"UTF.8\"": true
   },
   "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
-  "name": "Rosé Pine",
+  "name": "Rosé Pine Moon",
   "author": "Kainoa Kanter <kainoa@t1c.dev>",
   "themes": [
     {
       "appearance": "dark",
       "name": "Rosé Pine Moon",
       "style": {
-        "editor.foreground": "#6e6a86",
+        "editor.foreground": "#e0def4",
         "editor.background": "#232136",
         "editor.gutter.background": "#232136",
         "editor.active_line.background": "#2a273f",
         "editor.line_number": "#44415a",
-        "editor.active_line_number": "#6e6a86",
+        "editor.active_line_number": "#e0def4",
         "editor.invisible": "#44415a",
         "editor.wrap_guide": "#44415a",
         "editor.active_wrap_guide": "#44415a",
@@ -25,7 +25,7 @@
         "border.selected": "#232136",
         "border.transparent": "#232136",
         "border.disabled": "#232136",
-        "text": "#908caa",
+        "text": "#6e6a86",
         "text.muted": "#6e6a86",
         "text.placeholder": "#44415a",
         "text.disabled": "#44415a",
@@ -47,7 +47,7 @@
         "element.selected": "#393552",
         "element.disabled": "#393552",
         "predictive": "#908caa",
-        "modified": "#f6c177",
+        "modified": "#e2b271",
         "ignored": "#6e6a86",
         "deleted": "#eb6f92",
         "created": "#9ccfd8",
@@ -58,7 +58,7 @@
         "error.background": "#513550",
         "error.border": "#eb6f92",
         "info": "#3e8fb0",
-        "scrollbar.thumb.background": "#6e6a8644",
+        "scrollbar.thumb.background": "#e0def444",
         "scrollbar.thumb.border": "transparent",
         "scrollbar.track.background": "transparent",
         "terminal.background": "#232136",
@@ -99,7 +99,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": "#ea9a97"
+            "color": "#908caa"
           },
           "boolean": {
             "color": "#ea9a97"
@@ -109,10 +109,10 @@
             "font_style": "italic"
           },
           "comment.doc": {
-            "color": "#e0def4"
+            "color": "#908caa"
           },
           "constant": {
-            "color": "#ea9a97"
+            "color": "#e0def4"
           },
           "constructor": {
             "color": "#eb6f92"
@@ -135,28 +135,28 @@
             "color": "#ea9a97"
           },
           "hint": {
-            "color": "#e0def4"
+            "color": "#c4a7e7"
           },
           "keyword": {
-            "color": "#c4a7e7"
+            "color": "#3e8fb0"
           },
           "label": {
             "color": "#ea9a97"
           },
           "link_text": {
-            "color": "#ea9a97"
+            "color": "#c4a7e7"
           },
           "link_uri": {
-            "color": "#c4a7e7"
+            "color": "#3e8fb0"
           },
           "number": {
             "color": "#9ccfd8"
           },
           "operator": {
-            "color": "#3e8fb0"
+            "color": "#908caa"
           },
           "predictive": {
-            "color": "#e0def4"
+            "color": "#908caa"
           },
           "preproc": {
             "color": "#f6c177"
@@ -168,13 +168,13 @@
             "color": "#eb6f92"
           },
           "punctuation": {
-            "color": "#9ccfd8"
+            "color": "#908caa"
           },
           "punctuation.bracket": {
-            "color": "#ea9a97"
+            "color": "#908caa"
           },
           "punctuation.delimiter": {
-            "color": "#9ccfd8"
+            "color": "#908caa"
           },
           "punctuation.list_marker": {
             "color": "#9ccfd8",
