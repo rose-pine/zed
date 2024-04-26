@@ -1,0 +1,353 @@
+:root {
+  --schema: "https://zed.dev/schema/themes/v0.1.0.json";
+  --name: "Rosé Pine";
+  --author: "Kainoa Kanter <kainoa@t1c.dev>";
+}
+
+themes {
+  dark {
+    --appearance: "dark";
+    --name: "Rosé Pine";
+    $foreground-accent: #ebbcba;
+    $foreground-higher-contrast: #e0def4;
+    $foreground-high-contrast: #908caa;
+    $foreground: #6e6a86;
+    $foreground-low-contrast: #524f67;
+    $foreground-lower-contrast: #403d52;
+
+    $background-lowest-contrast: #26233a;
+    $background-lower-contrast: #26233a;
+    $background-low-contrast: #1f1d2e;
+    $background: #191724;
+    $background-high-contrast: #191724;
+    $background-higher-contrast: #191724;
+
+    // UI
+    $predictive: #908caa;
+    $modified: #f6c177;
+    $ignored: #6e6a86;
+
+    $info: #31748f;
+
+    $hint: #908caa;
+    $hint-background: mix($background-low-contrast, $info, 80%);
+
+    $error: #eb6f92;
+    $error-background: mix($background-low-contrast, $error, 80%);
+    $error-border: $error;
+
+    $deleted: #eb6f92;
+    $created: #9ccfd8;
+    $warning: #f6c177;
+
+    // Terminal
+    $black: #403d52;
+    $red: #eb6f92;
+    $green: #31748f;
+    $yellow: #f6c177;
+    $blue: #9ccfd8;
+    $magenta: #c4a7e7;
+    $cyan: #ebbcba;
+    $white: #e0def4;
+
+    // Syntax highlighting
+    $syntax1: #31748f;
+    $syntax2: #eb6f92;
+    $syntax3: #ebbcba;
+    $syntax4: #9ccfd8;
+    $syntax5: #c4a7e7;
+    $syntax6: #31748f;
+    $syntax7: #f6c177;
+    $syntax8: #9ccfd8;
+
+    style {
+      /* Editor */
+      --editor-foreground: #{$foreground};
+      --editor-background: #{$background};
+      --editor-gutter-background: #{$background};
+      --editor-active_line-background: #{$background-low-contrast};
+      --editor-line_number: #{$foreground-lower-contrast};
+      --editor-active_line_number: #{$foreground};
+      --editor-invisible: #{$foreground-lower-contrast};
+      --editor-wrap_guide: #{$foreground-lower-contrast};
+      --editor-active_wrap_guide: #{$foreground-lower-contrast};
+
+      /* Borders */
+      --border: #{$background-high-contrast};
+      --border-variant: #{$background-high-contrast};
+      --border-focused: #{$background-high-contrast};
+      --border-selected: #{$background-high-contrast};
+      --border-transparent: #{$background-high-contrast};
+      --border-disabled: #{$background-high-contrast};
+
+      /* Text */
+      --text: #{$foreground-high-contrast};
+      --text-muted: #{$foreground};
+      --text-placeholder: #{$foreground-lower-contrast};
+      --text-disabled: #{$foreground-lower-contrast};
+      --text-accent: #{$foreground-accent};
+
+      /* Layout */
+      --surface-background: #{$background-lower-contrast};
+      --elevated_surface-background: #{$background-lower-contrast};
+      --panel-background: #{$background};
+      --panel-focused_border: null;
+      --background: #{$background};
+      --status_bar-background: #{$background};
+      --title_bar-background: #{$background};
+      --toolbar-background: #{$background};
+
+      /* Tabs */
+      --tab_bar-background: #{$background-high-contrast};
+      --tab-inactive_background: #{$background-high-contrast};
+      --tab-active_background: #{$background};
+
+      /* Buttons */
+      --element-background: #{$background-lower-contrast};
+      --element-hover: #{$background-lowest-contrast};
+      --element-active: #{$background-lowest-contrast};
+      --element-selected: #{$background-lowest-contrast};
+      --element-disabled: #{$background-lowest-contrast};
+
+      --predictive: #{$predictive};
+      --modified: #{$modified};
+      --ignored: #{$ignored};
+      --deleted: #{$deleted};
+      --created: #{$created};
+      --warning: #{$warning};
+
+      --hint: #{$hint};
+      --hint-background: #{$hint-background};
+
+      --error: #{$error};
+      --error-background: #{$error-background};
+      --error-border: #{$error-border};
+
+      --info: #{$info};
+      // --info-background: #{$info-background};
+
+      /* Scrollbar */
+      --scrollbar-thumb-background: #{$foreground}44;
+      // --scrollbar-thumb-hover--background: #abb2bf;
+      --scrollbar-thumb-border: transparent;
+      --scrollbar-track-background: transparent;
+
+      /* Terminal */
+      --terminal-background: #{$background};
+      --terminal-ansi-black: #{$black};
+      --terminal-ansi-red: #{$red};
+      --terminal-ansi-green: #{$green};
+      --terminal-ansi-yellow: #{$yellow};
+      --terminal-ansi-blue: #{$blue};
+      --terminal-ansi-magenta: #{$magenta};
+      --terminal-ansi-cyan: #{$cyan};
+      --terminal-ansi-white: #{$white};
+
+      /* Players */
+      players {
+        p1 {
+          --cursor: #{$white};
+          --background: #{$white};
+          --selection: #{$white}22;
+        }
+        p2 {
+          --cursor: #{$blue};
+          --background: #{$blue};
+          --selection: #{$blue}44;
+        }
+        p3 {
+          --cursor: #{$magenta};
+          --background: #{$magenta};
+          --selection: #{$magenta}44;
+        }
+        p4 {
+          --cursor: #{$green};
+          --background: #{$green};
+          --selection: #{$green}44;
+        }
+        p5 {
+          --cursor: #{$red};
+          --background: #{$red};
+          --selection: #{$red}44;
+        }
+      }
+
+      /* Syntax highlighting */
+      syntax {
+        attribute {
+          color: #{$syntax3};
+        }
+        boolean {
+          color: #{$syntax3};
+        }
+        comment {
+          color: #{$foreground-low-contrast};
+          font-style: italic;
+        }
+        comment.doc {
+          color: #{$syntax4};
+        }
+        constant {
+          color: #{$syntax3};
+        }
+        constructor {
+          color: #{$syntax2};
+        }
+        embedded {
+          color: #{$syntax4};
+        }
+        emphasis {
+          color: #{$syntax5};
+          font-style: italic;
+          &.strong {
+            color: #{$syntax7};
+            font-weight: 700;
+          }
+        }
+        enum {
+          color: #{$syntax8};
+        }
+        function {
+          color: #{$syntax6};
+        }
+        hint {
+          color: #{$syntax4};
+        }
+        keyword {
+          color: #{$syntax5};
+        }
+        label {
+          color: #{$syntax6};
+        }
+        link_text {
+          color: #{$syntax6};
+        }
+        link_uri {
+          color: #{$syntax5};
+        }
+        number {
+          color: #{$syntax7};
+        }
+        operator {
+          color: #{$syntax8};
+        }
+        predictive {
+          color: #{$syntax4};
+        }
+        preproc {
+          color: #{$syntax1};
+        }
+        primary {
+          color: #{$syntax5};
+        } // <--
+        property {
+          color: #{$syntax2};
+        }
+        punctuation {
+          color: #{$syntax7};
+        }
+        punctuation.bracket {
+          color: #{$syntax3};
+        }
+        punctuation.delimiter {
+          color: #{$syntax7};
+        }
+        punctuation.list_marker {
+          color: #{$syntax7};
+          font-weight: 700;
+        }
+        punctuation.special {
+          color: #{$syntax5};
+        } // <--
+        string {
+          color: #{$syntax1};
+          &.escape {
+            color: #{$syntax1};
+          }
+          &.regex {
+            color: #{$syntax1};
+          }
+          &.special {
+            color: #{$syntax8};
+          }
+          &.special.symbol {
+            color: #{$syntax8};
+          }
+        }
+        tag {
+          color: #{$syntax5};
+        }
+        text.literal {
+          color: #{$syntax1};
+        }
+        title {
+          color: #{$syntax2};
+          font-weight: 700;
+        }
+        type {
+          color: #{$syntax7};
+        }
+        variable {
+          color: #{$syntax4};
+        }
+        variable.special {
+          color: #{$syntax7};
+        }
+        variant {
+          color: #{$syntax6};
+        }
+      }
+
+      // TODO
+      // --editor-subheader-background: null;
+      // --editor-highlighted_line-background: null;
+      // --editor-document_highlight-read_background: null;
+      // --editor-document_highlight-write_background: null;
+      // --scrollbar-thumb-hover_background: null;
+      // --scrollbar-track-border: null;
+      // --link_text-hover: null;
+      // --conflict: null;
+      // --conflict-background: null;
+      // --conflict-border: null;
+      // --created: null;
+      // --created-background: null;
+      // --created-border: null;
+      // --deleted: null;
+      // --deleted-background: null;
+      // --deleted-border: null;
+      // --error: null;
+      // --error-background: null;
+      // --error-border: null;
+      // --hidden: #f00;
+      // --hidden-background: #f00;
+      // --hidden-border: #f00;
+      // --hint: null;
+      // --hint-background: null;
+      // --hint-border: null;
+      // --ignored: null;
+      // --ignored-background: null;
+      // --ignored-border: null;
+      // --info: #f00;
+      // --info-background: #f00;
+      // --info-border: #f00;
+      // --modified: null;
+      // --modified-background: null;
+      // --modified-border: null;
+      // --predictive: null;
+      // --predictive-background: null;
+      // --predictive-border: null;
+      // --renamed: null;
+      // --renamed-background: null;
+      // --renamed-border: null;
+      // --success: null;
+      // --success-background: null;
+      // --success-border: null;
+      // --unreachable: #f00;
+      // --unreachable-background: #f00;
+      // --unreachable-border: #f00;
+      // --warning: null;
+      // --warning-background: null;
+      // --warning-border: null;
+    }
+  }
+}
