@@ -1,6 +1,6 @@
 :root {
   --schema: "https://zed.dev/schema/themes/v0.1.0.json";
-  --name: "Rosé Pine";
+  --name: "Rosé Pine Moon";
   --author: "Kainoa Kanter <kainoa@t1c.dev>";
 }
 
@@ -11,8 +11,8 @@ themes {
 
     $foreground-accent: #ea9a97;
     $foreground-higher-contrast: #e0def4;
-    $foreground-high-contrast: #908caa;
-    $foreground: #6e6a86;
+    $foreground-high-contrast: #6e6a86;
+    $foreground: #e0def4;
     $foreground-low-contrast: #56526e;
     $foreground-lower-contrast: #44415a;
 
@@ -25,7 +25,7 @@ themes {
 
     // UI
     $predictive: #908caa;
-    $modified: #f6c177;
+    $modified: mix($background-low-contrast, #f6c177, 10%);
     $ignored: #6e6a86;
 
     $info: #3e8fb0;
@@ -54,7 +54,7 @@ themes {
     // Syntax highlighting
     $syntax1: #f6c177;
     $syntax2: #eb6f92;
-    $syntax3: #ea9a97;
+    $syntax3: #908caa;
     $syntax4: #e0def4;
     $syntax5: #c4a7e7;
     $syntax6: #ea9a97;
@@ -83,7 +83,7 @@ themes {
 
       /* Text */
       --text: #{$foreground-high-contrast};
-      --text-muted: #{$foreground};
+      --text-muted: #{$foreground-high-contrast};
       --text-placeholder: #{$foreground-lower-contrast};
       --text-disabled: #{$foreground-lower-contrast};
       --text-accent: #{$foreground-accent};
@@ -179,17 +179,17 @@ themes {
           color: #{$syntax3};
         }
         boolean {
-          color: #{$syntax3};
+          color: #{$syntax6};
         }
         comment {
           color: #{$foreground-low-contrast};
           font-style: italic;
         }
         comment.doc {
-          color: #{$syntax4};
+          color: #{$syntax3};
         }
         constant {
-          color: #{$syntax3};
+          color: #{$syntax4};
         }
         constructor {
           color: #{$syntax2};
@@ -212,28 +212,28 @@ themes {
           color: #{$syntax6};
         }
         hint {
-          color: #{$syntax4};
+          color: #{$syntax5};
         }
         keyword {
-          color: #{$syntax5};
+          color: #{$syntax8};
         }
         label {
           color: #{$syntax6};
         }
         link_text {
-          color: #{$syntax6};
+          color: #{$syntax5};
         }
         link_uri {
-          color: #{$syntax5};
+          color: #{$syntax8};
         }
         number {
           color: #{$syntax7};
         }
         operator {
-          color: #{$syntax8};
+          color: #{$syntax3};
         }
         predictive {
-          color: #{$syntax4};
+          color: #{$syntax3};
         }
         preproc {
           color: #{$syntax1};

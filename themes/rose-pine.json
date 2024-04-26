@@ -10,12 +10,12 @@
       "appearance": "dark",
       "name": "Rosé Pine",
       "style": {
-        "editor.foreground": "#6e6a86",
+        "editor.foreground": "#e0def4",
         "editor.background": "#191724",
         "editor.gutter.background": "#191724",
         "editor.active_line.background": "#1f1d2e",
         "editor.line_number": "#403d52",
-        "editor.active_line_number": "#6e6a86",
+        "editor.active_line_number": "#e0def4",
         "editor.invisible": "#403d52",
         "editor.wrap_guide": "#403d52",
         "editor.active_wrap_guide": "#403d52",
@@ -25,7 +25,7 @@
         "border.selected": "#191724",
         "border.transparent": "#191724",
         "border.disabled": "#191724",
-        "text": "#908caa",
+        "text": "#6e6a86",
         "text.muted": "#6e6a86",
         "text.placeholder": "#403d52",
         "text.disabled": "#403d52",
@@ -47,7 +47,7 @@
         "element.selected": "#26233a",
         "element.disabled": "#26233a",
         "predictive": "#908caa",
-        "modified": "#f6c177",
+        "modified": "#e1b170",
         "ignored": "#6e6a86",
         "deleted": "#eb6f92",
         "created": "#9ccfd8",
@@ -58,7 +58,7 @@
         "error.background": "#482d42",
         "error.border": "#eb6f92",
         "info": "#31748f",
-        "scrollbar.thumb.background": "#6e6a8644",
+        "scrollbar.thumb.background": "#e0def444",
         "scrollbar.thumb.border": "transparent",
         "scrollbar.track.background": "transparent",
         "terminal.background": "#191724",
@@ -99,7 +99,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": "#ebbcba"
+            "color": "#908caa"
           },
           "boolean": {
             "color": "#ebbcba"
@@ -109,10 +109,10 @@
             "font_style": "italic"
           },
           "comment.doc": {
-            "color": "#e0def4"
+            "color": "#908caa"
           },
           "constant": {
-            "color": "#ebbcba"
+            "color": "#e0def4"
           },
           "constructor": {
             "color": "#eb6f92"
@@ -135,28 +135,28 @@
             "color": "#ebbcba"
           },
           "hint": {
-            "color": "#e0def4"
+            "color": "#c4a7e7"
           },
           "keyword": {
-            "color": "#c4a7e7"
+            "color": "#31748f"
           },
           "label": {
             "color": "#ebbcba"
           },
           "link_text": {
-            "color": "#ebbcba"
+            "color": "#c4a7e7"
           },
           "link_uri": {
-            "color": "#c4a7e7"
+            "color": "#31748f"
           },
           "number": {
             "color": "#9ccfd8"
           },
           "operator": {
-            "color": "#31748f"
+            "color": "#908caa"
           },
           "predictive": {
-            "color": "#e0def4"
+            "color": "#908caa"
           },
           "preproc": {
             "color": "#f6c177"
@@ -171,7 +171,7 @@
             "color": "#9ccfd8"
           },
           "punctuation.bracket": {
-            "color": "#ebbcba"
+            "color": "#908caa"
           },
           "punctuation.delimiter": {
             "color": "#9ccfd8"

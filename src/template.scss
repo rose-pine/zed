@@ -11,8 +11,8 @@ themes {
 
     $foreground-accent: $rose;
     $foreground-higher-contrast: $text;
-    $foreground-high-contrast: $subtle;
-    $foreground: $muted;
+    $foreground-high-contrast: $muted;
+    $foreground: $text;
     $foreground-low-contrast: $highlightHigh;
     $foreground-lower-contrast: $highlightMed;
 
@@ -25,7 +25,7 @@ themes {
 
     // UI
     $predictive: $subtle;
-    $modified: $gold;
+    $modified: mix($background-low-contrast, $gold, 10%);
     $ignored: $muted;
 
     $info: $pine;
@@ -54,7 +54,7 @@ themes {
     // Syntax highlighting
     $syntax1: $gold;
     $syntax2: $love;
-    $syntax3: $rose;
+    $syntax3: $subtle;
     $syntax4: $text;
     $syntax5: $iris;
     $syntax6: $rose;
@@ -83,7 +83,7 @@ themes {
 
       /* Text */
       --text: #{$foreground-high-contrast};
-      --text-muted: #{$foreground};
+      --text-muted: #{$foreground-high-contrast};
       --text-placeholder: #{$foreground-lower-contrast};
       --text-disabled: #{$foreground-lower-contrast};
       --text-accent: #{$foreground-accent};
@@ -179,17 +179,17 @@ themes {
           color: #{$syntax3};
         }
         boolean {
-          color: #{$syntax3};
+          color: #{$syntax6};
         }
         comment {
           color: #{$foreground-low-contrast};
           font-style: italic;
         }
         comment.doc {
-          color: #{$syntax4};
+          color: #{$syntax3};
         }
         constant {
-          color: #{$syntax3};
+          color: #{$syntax4};
         }
         constructor {
           color: #{$syntax2};
@@ -212,28 +212,28 @@ themes {
           color: #{$syntax6};
         }
         hint {
-          color: #{$syntax4};
+          color: #{$syntax5};
         }
         keyword {
-          color: #{$syntax5};
+          color: #{$syntax8};
         }
         label {
           color: #{$syntax6};
         }
         link_text {
-          color: #{$syntax6};
+          color: #{$syntax5};
         }
         link_uri {
-          color: #{$syntax5};
+          color: #{$syntax8};
         }
         number {
           color: #{$syntax7};
         }
         operator {
-          color: #{$syntax8};
+          color: #{$syntax3};
         }
         predictive {
-          color: #{$syntax4};
+          color: #{$syntax3};
         }
         preproc {
           color: #{$syntax1};
