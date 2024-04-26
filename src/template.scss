@@ -74,10 +74,10 @@ themes {
       --editor-active_wrap_guide: #{$foreground-lower-contrast};
 
       /* Borders */
-      --border: #{$background-high-contrast};
-      --border-variant: #{$background-high-contrast};
-      --border-focused: #{$background-high-contrast};
-      --border-selected: #{$background-high-contrast};
+      --border: #{$foreground-low-contrast};
+      --border-variant: #{$foreground-low-contrast};
+      --border-focused: #{$foreground-low-contrast};
+      --border-selected: #{$foreground-low-contrast};
       --border-transparent: #{$background-high-contrast};
       --border-disabled: #{$background-high-contrast};
 
