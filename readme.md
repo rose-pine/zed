@@ -13,13 +13,23 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Install the Rosé Pine extension from Zed extensions
+2. Select your desired variant from the theme selection menu
 
 ## Gallery
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+### Rosé Pine
+
+![image](https://github.com/rose-pine/zed/assets/44733677/7b6c8017-9559-4384-ba4e-fa112e44d64b)
+
+### Rosé Pine Moon
+
+![image](https://github.com/rose-pine/zed/assets/44733677/f5093fe2-222d-4ed6-a466-8b3faa41c5c1)
+
+### Rosé Pine Dawn
+
+![image](https://github.com/rose-pine/zed/assets/44733677/d5f49bf0-bdf6-4ae6-9b11-8c1a4620b1bf)
+
 
 ## Thanks to
 
