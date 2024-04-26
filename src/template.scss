@@ -7,59 +7,59 @@
 themes {
   dark {
     --appearance: "dark";
-    --name: "Rosé Pine Moon";
+    --name: "Rosé Pine";
 
-    $foreground-accent: #ea9a97;
-    $foreground-higher-contrast: #e0def4;
-    $foreground-high-contrast: #908caa;
-    $foreground: #6e6a86;
-    $foreground-low-contrast: #56526e;
-    $foreground-lower-contrast: #44415a;
+    $foreground-accent: $rose;
+    $foreground-higher-contrast: $text;
+    $foreground-high-contrast: $subtle;
+    $foreground: $muted;
+    $foreground-low-contrast: $highlightHigh;
+    $foreground-lower-contrast: $highlightMed;
 
-    $background-lowest-contrast: #393552;
-    $background-lower-contrast: #393552;
-    $background-low-contrast: #2a273f;
-    $background: #232136;
-    $background-high-contrast: #232136;
-    $background-higher-contrast: #232136;
+    $background-lowest-contrast: $overlay;
+    $background-lower-contrast: $overlay;
+    $background-low-contrast: $surface;
+    $background: $base;
+    $background-high-contrast: $base;
+    $background-higher-contrast: $base;
 
     // UI
-    $predictive: #908caa;
-    $modified: #f6c177;
-    $ignored: #6e6a86;
+    $predictive: $subtle;
+    $modified: $gold;
+    $ignored: $muted;
 
-    $info: #3e8fb0;
+    $info: $pine;
 
-    $hint: #908caa;
+    $hint: $subtle;
     $hint-background: mix($background-low-contrast, $info, 80%);
 
-    $error: #eb6f92;
+    $error: $love;
     $error-background: mix($background-low-contrast, $error, 80%);
     $error-border: $error;
 
-    $deleted: #eb6f92;
-    $created: #9ccfd8;
-    $warning: #f6c177;
+    $deleted: $love;
+    $created: $foam;
+    $warning: $gold;
 
     // Terminal
-    $black: #44415a;
-    $red: #eb6f92;
-    $green: #3e8fb0;
-    $yellow: #f6c177;
-    $blue: #9ccfd8;
-    $magenta: #c4a7e7;
-    $cyan: #ea9a97;
-    $white: #e0def4;
+    $black: $highlightMed;
+    $red: $love;
+    $green: $pine;
+    $yellow: $gold;
+    $blue: $foam;
+    $magenta: $iris;
+    $cyan: $rose;
+    $white: $text;
 
     // Syntax highlighting
-    $syntax1: #f6c177;
-    $syntax2: #eb6f92;
-    $syntax3: #ea9a97;
-    $syntax4: #e0def4;
-    $syntax5: #c4a7e7;
-    $syntax6: #ea9a97;
-    $syntax7: #9ccfd8;
-    $syntax8: #3e8fb0;
+    $syntax1: $gold;
+    $syntax2: $love;
+    $syntax3: $rose;
+    $syntax4: $text;
+    $syntax5: $iris;
+    $syntax6: $rose;
+    $syntax7: $foam;
+    $syntax8: $pine;
 
     style {
       /* Editor */

@@ -8,6 +8,7 @@ themes {
   dark {
     --appearance: "dark";
     --name: "Rosé Pine";
+
     $foreground-accent: #ebbcba;
     $foreground-higher-contrast: #e0def4;
     $foreground-high-contrast: #908caa;
@@ -51,14 +52,14 @@ themes {
     $white: #e0def4;
 
     // Syntax highlighting
-    $syntax1: #31748f;
+    $syntax1: #f6c177;
     $syntax2: #eb6f92;
     $syntax3: #ebbcba;
-    $syntax4: #9ccfd8;
+    $syntax4: #e0def4;
     $syntax5: #c4a7e7;
-    $syntax6: #31748f;
-    $syntax7: #f6c177;
-    $syntax8: #9ccfd8;
+    $syntax6: #ebbcba;
+    $syntax7: #9ccfd8;
+    $syntax8: #31748f;
 
     style {
       /* Editor */

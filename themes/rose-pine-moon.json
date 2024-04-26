@@ -3,7 +3,7 @@
     "\"UTF.8\"": true
   },
   "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
-  "name": "Rosé Pine Moon",
+  "name": "Rosé Pine",
   "author": "Kainoa Kanter <kainoa@t1c.dev>",
   "themes": [
     {
@@ -109,7 +109,7 @@
             "font_style": "italic"
           },
           "comment.doc": {
-            "color": "#9ccfd8"
+            "color": "#e0def4"
           },
           "constant": {
             "color": "#ea9a97"
@@ -118,48 +118,48 @@
             "color": "#eb6f92"
           },
           "embedded": {
-            "color": "#9ccfd8"
+            "color": "#e0def4"
           },
           "emphasis": {
             "color": "#c4a7e7",
             "font_style": "italic"
           },
           "emphasis.strong": {
-            "color": "#f6c177",
+            "color": "#9ccfd8",
             "font_weight": 700
           },
           "enum": {
-            "color": "#9ccfd8"
-          },
-          "function": {
             "color": "#3e8fb0"
           },
+          "function": {
+            "color": "#ea9a97"
+          },
           "hint": {
-            "color": "#9ccfd8"
+            "color": "#e0def4"
           },
           "keyword": {
             "color": "#c4a7e7"
           },
           "label": {
-            "color": "#3e8fb0"
+            "color": "#ea9a97"
           },
           "link_text": {
-            "color": "#3e8fb0"
+            "color": "#ea9a97"
           },
           "link_uri": {
             "color": "#c4a7e7"
           },
           "number": {
-            "color": "#f6c177"
+            "color": "#9ccfd8"
           },
           "operator": {
-            "color": "#9ccfd8"
+            "color": "#3e8fb0"
           },
           "predictive": {
-            "color": "#9ccfd8"
+            "color": "#e0def4"
           },
           "preproc": {
-            "color": "#3e8fb0"
+            "color": "#f6c177"
           },
           "primary": {
             "color": "#c4a7e7"
@@ -168,57 +168,57 @@
             "color": "#eb6f92"
           },
           "punctuation": {
-            "color": "#f6c177"
+            "color": "#9ccfd8"
           },
           "punctuation.bracket": {
             "color": "#ea9a97"
           },
           "punctuation.delimiter": {
-            "color": "#f6c177"
+            "color": "#9ccfd8"
           },
           "punctuation.list_marker": {
-            "color": "#f6c177",
+            "color": "#9ccfd8",
             "font_weight": 700
           },
           "punctuation.special": {
             "color": "#c4a7e7"
           },
           "string": {
-            "color": "#3e8fb0"
+            "color": "#f6c177"
           },
           "string.escape": {
-            "color": "#3e8fb0"
+            "color": "#f6c177"
           },
           "string.regex": {
-            "color": "#3e8fb0"
+            "color": "#f6c177"
           },
           "string.special": {
-            "color": "#9ccfd8"
+            "color": "#3e8fb0"
           },
           "string.special.symbol": {
-            "color": "#9ccfd8"
+            "color": "#3e8fb0"
           },
           "tag": {
             "color": "#c4a7e7"
           },
           "text.literal": {
-            "color": "#3e8fb0"
+            "color": "#f6c177"
           },
           "title": {
             "color": "#eb6f92",
             "font_weight": 700
           },
           "type": {
-            "color": "#f6c177"
-          },
-          "variable": {
             "color": "#9ccfd8"
           },
+          "variable": {
+            "color": "#e0def4"
+          },
           "variable.special": {
-            "color": "#f6c177"
+            "color": "#9ccfd8"
           },
           "variant": {
-            "color": "#3e8fb0"
+            "color": "#ea9a97"
           }
         }
       }
