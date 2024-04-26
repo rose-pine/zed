@@ -3,12 +3,12 @@
     "\"UTF.8\"": true
   },
   "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
-  "name": "Rosé Pine Dawn",
+  "name": "Rosé Pine",
   "author": "Kainoa Kanter <kainoa@t1c.dev>",
   "themes": [
     {
-      "appearance": "light",
-      "name": "Rosé Pine Dawn",
+      "appearance": "dark",
+      "name": "Rosé Pine",
       "style": {
         "editor.foreground": "#575279",
         "editor.background": "#faf4ed",
@@ -168,13 +168,13 @@
             "color": "#b4637a"
           },
           "punctuation": {
-            "color": "#797593"
+            "color": "#56949f"
           },
           "punctuation.bracket": {
             "color": "#797593"
           },
           "punctuation.delimiter": {
-            "color": "#797593"
+            "color": "#56949f"
           },
           "punctuation.list_marker": {
             "color": "#56949f",

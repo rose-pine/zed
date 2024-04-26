@@ -17,11 +17,11 @@ themes {
     $foreground-lower-contrast: #403d52;
 
     $background-lowest-contrast: #26233a;
-    $background-lower-contrast: #26233a;
-    $background-low-contrast: #1f1d2e;
+    $background-lower-contrast: #21202e;
+    $background-low-contrast: #21202e;
     $background: #191724;
-    $background-high-contrast: #191724;
-    $background-higher-contrast: #191724;
+    $background-high-contrast: #21202e;
+    $background-higher-contrast: #403d52;
 
     // UI
     $predictive: #908caa;
@@ -245,13 +245,13 @@ themes {
           color: #{$syntax2};
         }
         punctuation {
-          color: #{$syntax3};
+          color: #{$syntax7};
         }
         punctuation.bracket {
           color: #{$syntax3};
         }
         punctuation.delimiter {
-          color: #{$syntax3};
+          color: #{$syntax7};
         }
         punctuation.list_marker {
           color: #{$syntax7};

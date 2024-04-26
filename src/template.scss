@@ -17,11 +17,11 @@ themes {
     $foreground-lower-contrast: $highlightMed;
 
     $background-lowest-contrast: $overlay;
-    $background-lower-contrast: $overlay;
-    $background-low-contrast: $surface;
+    $background-lower-contrast: $highlightLow;
+    $background-low-contrast: $highlightLow;
     $background: $base;
-    $background-high-contrast: $base;
-    $background-higher-contrast: $base;
+    $background-high-contrast: $highlightLow;
+    $background-higher-contrast: $highlightMed;
 
     // UI
     $predictive: $subtle;

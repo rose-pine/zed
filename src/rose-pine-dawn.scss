@@ -1,13 +1,13 @@
 :root {
   --schema: "https://zed.dev/schema/themes/v0.1.0.json";
-  --name: "Rosé Pine Dawn";
+  --name: "Rosé Pine";
   --author: "Kainoa Kanter <kainoa@t1c.dev>";
 }
 
 themes {
-  light {
-    --appearance: "light";
-    --name: "Rosé Pine Dawn";
+  dark {
+    --appearance: "dark";
+    --name: "Rosé Pine";
 
     $foreground-accent: #d7827e;
     $foreground-higher-contrast: #575279;
@@ -17,11 +17,11 @@ themes {
     $foreground-lower-contrast: #dfdad9;
 
     $background-lowest-contrast: #f2e9e1;
-    $background-lower-contrast: #f2e9e1;
-    $background-low-contrast: #fffaf3;
+    $background-lower-contrast: #f4ede8;
+    $background-low-contrast: #f4ede8;
     $background: #faf4ed;
-    $background-high-contrast: #faf4ed;
-    $background-higher-contrast: #faf4ed;
+    $background-high-contrast: #f4ede8;
+    $background-higher-contrast: #dfdad9;
 
     // UI
     $predictive: #797593;
@@ -245,13 +245,13 @@ themes {
           color: #{$syntax2};
         }
         punctuation {
-          color: #{$syntax3};
+          color: #{$syntax7};
         }
         punctuation.bracket {
           color: #{$syntax3};
         }
         punctuation.delimiter {
-          color: #{$syntax3};
+          color: #{$syntax7};
         }
         punctuation.list_marker {
           color: #{$syntax7};
