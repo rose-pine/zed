@@ -1,9 +1,9 @@
 {
     "name": "Rosé Pine",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "authors": [
         "Kainoa Kanter <kainoa@t1c.dev>"
     ],
-    "description": "soho vibes for zed",
+    "description": "Theme soho vibes for zed",
     "repository": "https://github.com/rose-pine/zed"
 }
