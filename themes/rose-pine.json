@@ -25,7 +25,7 @@
         "border.selected": "#21202e",
         "border.transparent": "#21202e",
         "border.disabled": "#21202e",
-        "text": "#6e6a86",
+        "text": "#e0def4",
         "text.muted": "#6e6a86",
         "text.placeholder": "#403d52",
         "text.disabled": "#403d52",
