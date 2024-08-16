@@ -92,7 +92,7 @@ themes {
       --surface-background: #{$background-lower-contrast};
       --elevated_surface-background: #{$background-lower-contrast};
       --panel-background: #{$background};
-      --panel-focused_border: null;
+      --panel-focused_border: transparent;
       --background: #{$background};
       --status_bar-background: #{$background};
       --title_bar-background: #{$background};
@@ -132,6 +132,7 @@ themes {
       // --scrollbar-thumb-hover--background: #abb2bf;
       --scrollbar-thumb-border: transparent;
       --scrollbar-track-background: transparent;
+      --scrollbar-track-border: transparent;
 
       /* Terminal */
       --terminal-background: #{$background};
@@ -305,7 +306,6 @@ themes {
       // --editor-document_highlight-read_background: null;
       // --editor-document_highlight-write_background: null;
       // --scrollbar-thumb-hover_background: null;
-      // --scrollbar-track-border: null;
       // --link_text-hover: null;
       // --conflict: null;
       // --conflict-background: null;
