@@ -16,7 +16,11 @@
 				"editor.invisible": "$muted",
 				"editor.wrap_guide": "$muted44",
 				"editor.active_wrap_guide": "$muted88",
-				"ghost_element.active": "$rose",
+				"editor.document_highlight.read_background": "$foam1a",
+				"editor.document_highlight.write_background": "$muted66",
+				"editor.subheader.background": "$surface",
+				"editor.highlighted_line.background": "$surface",
+				"ghost_element.active": "$subtle",
 				"ghost_element.hover": "$highlightMed",
 				"ghost_element.selected": "$highlightHigh",
 				"ghost_element.background": "$highlightLow",
@@ -24,7 +28,7 @@
 				"border.variant": "$surface",
 				"border.focused": "$surface",
 				"border.selected": "$surface",
-				"border.transparent": "$surface",
+				"border.transparent": "transparent",
 				"border.disabled": "$surface",
 				"text": "$text",
 				"text.muted": "$muted",
@@ -34,7 +38,7 @@
 				"surface.background": "$surface",
 				"elevated_surface.background": "$surface",
 				"panel.background": "$base",
-				"panel.focused_border": "transparent",
+				"panel.focused_border": "$surface",
 				"background": "$base",
 				"status_bar.background": "$base",
 				"title_bar.background": "$base",
@@ -47,6 +51,7 @@
 				"element.active": "$overlay",
 				"element.selected": "$highlightHigh",
 				"element.disabled": "$overlay",
+				"drop_target.background": "$text80",
 				"predictive": "$subtle",
 				"modified": "$rose",
 				"ignored": "$muted",
@@ -60,26 +65,65 @@
 				"error.background": "$highlightLow",
 				"error.border": "$love",
 				"info": "$pine",
-				"scrollbar.thumb.background": "$text44",
-				"scrollbar.thumb.border": "transparent",
-				"scrollbar.track.background": "transparent",
+				"scrollbar.thumb.background": "$highlightMed",
+				"scrollbar.thumb.hover_background": "$surface",
+				"scrollbar.thumb.border": "$highlightLow",
+				"scrollbar.track.background": "#00000000",
+				"scrollbar.track.border": "$highlightLow",
 				"terminal.background": "$base",
+				"terminal.foreground": "$text",
+				"terminal.bright_foreground": "$text",
+				"terminal.dim_foreground": "$base",
 				"terminal.ansi.black": "$highlightLow",
 				"terminal.ansi.bright_black": "$subtle",
+				"terminal.ansi.dim_black": "$text",
 				"terminal.ansi.red": "$love",
 				"terminal.ansi.bright_red": "$love",
+				"terminal.ansi.dim_red": "$love",
 				"terminal.ansi.green": "$pine",
 				"terminal.ansi.bright_green": "$pine",
+				"terminal.ansi.dim_green": "$pine",
 				"terminal.ansi.yellow": "$gold",
 				"terminal.ansi.bright_yellow": "$gold",
+				"terminal.ansi.dim_yellow": "$gold",
 				"terminal.ansi.blue": "$foam",
 				"terminal.ansi.bright_blue": "$foam",
+				"terminal.ansi.dim_blue": "$foam",
 				"terminal.ansi.magenta": "$iris",
 				"terminal.ansi.bright_magenta": "$iris",
+				"terminal.ansi.dim_magenta": "$iris",
 				"terminal.ansi.cyan": "$rose",
 				"terminal.ansi.bright_cyan": "$rose",
+				"terminal.ansi.dim_cyan": "$rose",
 				"terminal.ansi.white": "$text",
 				"terminal.ansi.bright_white": "$text",
+				"terminal.ansi.dim_white": "$text",
+				"link_text.hover": "$foam",
+				"conflict": "$gold",
+				"conflict.background": "$highlightLow",
+				"conflict.border": "$gold",
+				"created.background": "$highlightLow",
+				"created.border": "$foam",
+				"deleted.background": "$highlightLow",
+				"deleted.border": "$love",
+				"hidden.background": "$base",
+				"hidden.border": "$surface",
+				"ignored.background": "$base",
+				"ignored.border": "$surface",
+				"info.background": "$highlightLow",
+				"info.border": "$pine",
+				"modified.background": "$highlightLow",
+				"modified.border": "$rose",
+				"predictive.background": "$highlightLow",
+				"predictive.border": "$pine",
+				"renamed.background": "$highlightLow",
+				"renamed.border": "$pine",
+				"success": "$pine",
+				"success.background": "$highlightLow",
+				"success.border": "$pine",
+				"unreachable": "$subtle",
+				"unreachable.background": "$base",
+				"unreachable.border": "$surface",
 				"players": [
 					{
 						"cursor": "$text",
@@ -175,23 +219,23 @@
 						"color": "$iris"
 					},
 					"property": {
-						"color": "$love"
+						"color": "$text"
 					},
 					"punctuation": {
 						"color": "$subtle"
 					},
 					"punctuation.bracket": {
-						"color": "$muted"
+						"color": "#97495F"
 					},
 					"punctuation.delimiter": {
-						"color": "$muted"
+						"color": "$subtle"
 					},
 					"punctuation.list_marker": {
 						"color": "$subtle",
 						"font_weight": 700
 					},
 					"punctuation.special": {
-						"color": "$foam"
+						"color": "$pine"
 					},
 					"string": {
 						"color": "$gold"

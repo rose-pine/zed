@@ -16,7 +16,11 @@
 				"editor.invisible": "#9893a5",
 				"editor.wrap_guide": "#9893a544",
 				"editor.active_wrap_guide": "#9893a588",
-				"ghost_element.active": "#d7827e",
+				"editor.document_highlight.read_background": "#56949f1a",
+				"editor.document_highlight.write_background": "#9893a566",
+				"editor.subheader.background": "#fffaf3",
+				"editor.highlighted_line.background": "#fffaf3",
+				"ghost_element.active": "#797593",
 				"ghost_element.hover": "#dfdad9",
 				"ghost_element.selected": "#cecacd",
 				"ghost_element.background": "#f4ede8",
@@ -24,7 +28,7 @@
 				"border.variant": "#fffaf3",
 				"border.focused": "#fffaf3",
 				"border.selected": "#fffaf3",
-				"border.transparent": "#fffaf3",
+				"border.transparent": "transparent",
 				"border.disabled": "#fffaf3",
 				"text": "#575279",
 				"text.muted": "#9893a5",
@@ -34,7 +38,7 @@
 				"surface.background": "#fffaf3",
 				"elevated_surface.background": "#fffaf3",
 				"panel.background": "#faf4ed",
-				"panel.focused_border": "transparent",
+				"panel.focused_border": "#fffaf3",
 				"background": "#faf4ed",
 				"status_bar.background": "#faf4ed",
 				"title_bar.background": "#faf4ed",
@@ -47,6 +51,7 @@
 				"element.active": "#f2e9e1",
 				"element.selected": "#cecacd",
 				"element.disabled": "#f2e9e1",
+				"drop_target.background": "#57527980",
 				"predictive": "#797593",
 				"modified": "#d7827e",
 				"ignored": "#9893a5",
@@ -60,26 +65,65 @@
 				"error.background": "#f4ede8",
 				"error.border": "#b4637a",
 				"info": "#286983",
-				"scrollbar.thumb.background": "#57527944",
-				"scrollbar.thumb.border": "transparent",
-				"scrollbar.track.background": "transparent",
+				"scrollbar.thumb.background": "#dfdad9",
+				"scrollbar.thumb.hover_background": "#fffaf3",
+				"scrollbar.thumb.border": "#f4ede8",
+				"scrollbar.track.background": "#00000000",
+				"scrollbar.track.border": "#f4ede8",
 				"terminal.background": "#faf4ed",
+				"terminal.foreground": "#575279",
+				"terminal.bright_foreground": "#575279",
+				"terminal.dim_foreground": "#faf4ed",
 				"terminal.ansi.black": "#f4ede8",
 				"terminal.ansi.bright_black": "#797593",
+				"terminal.ansi.dim_black": "#575279",
 				"terminal.ansi.red": "#b4637a",
 				"terminal.ansi.bright_red": "#b4637a",
+				"terminal.ansi.dim_red": "#b4637a",
 				"terminal.ansi.green": "#286983",
 				"terminal.ansi.bright_green": "#286983",
+				"terminal.ansi.dim_green": "#286983",
 				"terminal.ansi.yellow": "#ea9d34",
 				"terminal.ansi.bright_yellow": "#ea9d34",
+				"terminal.ansi.dim_yellow": "#ea9d34",
 				"terminal.ansi.blue": "#56949f",
 				"terminal.ansi.bright_blue": "#56949f",
+				"terminal.ansi.dim_blue": "#56949f",
 				"terminal.ansi.magenta": "#907aa9",
 				"terminal.ansi.bright_magenta": "#907aa9",
+				"terminal.ansi.dim_magenta": "#907aa9",
 				"terminal.ansi.cyan": "#d7827e",
 				"terminal.ansi.bright_cyan": "#d7827e",
+				"terminal.ansi.dim_cyan": "#d7827e",
 				"terminal.ansi.white": "#575279",
 				"terminal.ansi.bright_white": "#575279",
+				"terminal.ansi.dim_white": "#575279",
+				"link_text.hover": "#56949f",
+				"conflict": "#ea9d34",
+				"conflict.background": "#f4ede8",
+				"conflict.border": "#ea9d34",
+				"created.background": "#f4ede8",
+				"created.border": "#56949f",
+				"deleted.background": "#f4ede8",
+				"deleted.border": "#b4637a",
+				"hidden.background": "#faf4ed",
+				"hidden.border": "#fffaf3",
+				"ignored.background": "#faf4ed",
+				"ignored.border": "#fffaf3",
+				"info.background": "#f4ede8",
+				"info.border": "#286983",
+				"modified.background": "#f4ede8",
+				"modified.border": "#d7827e",
+				"predictive.background": "#f4ede8",
+				"predictive.border": "#286983",
+				"renamed.background": "#f4ede8",
+				"renamed.border": "#286983",
+				"success": "#286983",
+				"success.background": "#f4ede8",
+				"success.border": "#286983",
+				"unreachable": "#797593",
+				"unreachable.background": "#faf4ed",
+				"unreachable.border": "#fffaf3",
 				"players": [
 					{
 						"cursor": "#575279",
@@ -175,23 +219,23 @@
 						"color": "#907aa9"
 					},
 					"property": {
-						"color": "#b4637a"
+						"color": "#575279"
 					},
 					"punctuation": {
 						"color": "#797593"
 					},
 					"punctuation.bracket": {
-						"color": "#9893a5"
+						"color": "#97495F"
 					},
 					"punctuation.delimiter": {
-						"color": "#9893a5"
+						"color": "#797593"
 					},
 					"punctuation.list_marker": {
 						"color": "#797593",
 						"font_weight": 700
 					},
 					"punctuation.special": {
-						"color": "#56949f"
+						"color": "#286983"
 					},
 					"string": {
 						"color": "#ea9d34"
