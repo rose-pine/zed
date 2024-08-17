@@ -59,6 +59,7 @@
 				"created": "$foam",
 				"warning": "$gold",
 				"warning.background": "$highlightLow",
+				"warning.border": "$gold",
 				"hint": "$subtle",
 				"hint.background": "$highlightLow",
 				"error": "$love",

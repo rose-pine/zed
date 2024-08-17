@@ -59,6 +59,7 @@
 				"created": "#56949f",
 				"warning": "#ea9d34",
 				"warning.background": "#f4ede8",
+				"warning.border": "#ea9d34",
 				"hint": "#797593",
 				"hint.background": "#f4ede8",
 				"error": "#b4637a",
