@@ -13,6 +13,8 @@
 				"editor.active_line.background": "#fffaf3",
 				"editor.line_number": "#9893a5",
 				"editor.active_line_number": "#575279",
+				"editor.indent_guide": "#9893a588",
+				"editor.indent_guide_active": "#797593aa",
 				"editor.invisible": "#9893a5",
 				"editor.wrap_guide": "#9893a544",
 				"editor.active_wrap_guide": "#9893a588",

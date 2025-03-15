@@ -13,6 +13,8 @@
 				"editor.active_line.background": "$surface",
 				"editor.line_number": "$muted",
 				"editor.active_line_number": "$text",
+				"editor.indent_guide": "$muted88",
+				"editor.indent_guide_active": "$subtleaa",
 				"editor.invisible": "$muted",
 				"editor.wrap_guide": "$muted44",
 				"editor.active_wrap_guide": "$muted88",
