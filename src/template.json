@@ -38,7 +38,7 @@
 				"surface.background": "$surface",
 				"elevated_surface.background": "$surface",
 				"panel.background": "$base",
-				"panel.focused_border": "$surface",
+				"panel.focused_border": "$highlightHigh",
 				"background": "$base",
 				"status_bar.background": "$base",
 				"title_bar.background": "$base",
