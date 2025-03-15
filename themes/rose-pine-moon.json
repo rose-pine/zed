@@ -38,7 +38,7 @@
 				"surface.background": "#2a273f",
 				"elevated_surface.background": "#2a273f",
 				"panel.background": "#232136",
-				"panel.focused_border": "#56526e",
+				"panel.focused_border": "#c4a7e744",
 				"background": "#232136",
 				"status_bar.background": "#232136",
 				"title_bar.background": "#232136",
