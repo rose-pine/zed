@@ -1,7 +1,7 @@
-id = "rose-pine-theme"
-name = "Rosé Pine"
-version = "1.1.2"
-schema_version = 1
 authors = ["Kainoa Kanter <kainoa@t1c.dev>"]
 description = "All natural pine, faux fur, and a bit of soho vibes – a classy minimalist theme for Zed."
+id = "rose-pine-theme"
+name = "Rosé Pine"
 repository = "https://github.com/rose-pine/zed"
+schema_version = 1
+version = "1.1.3"
