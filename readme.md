@@ -19,7 +19,7 @@
 ## Contributing
 
 - Modify `src/template.json`
-- Run `bunx --bun @rose-pine/build -t ./src/template.json -f hex -o themes/` to build
+- Run `npx @rose-pine/build -t ./src/template.json -f hex -o themes/` to build
 
 ## Gallery
 

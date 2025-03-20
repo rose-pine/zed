@@ -1,284 +1,290 @@
 {
-	"$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-	"name": "$name",
-	"author": "Kainoa Kanter <kainoa@t1c.dev>",
-	"themes": [
-		{
-			"appearance": "$type",
-			"name": "$name",
-			"style": {
-				"editor.foreground": "$text",
-				"editor.background": "$base",
-				"editor.gutter.background": "$base",
-				"editor.active_line.background": "$surface",
-				"editor.line_number": "$muted",
-				"editor.active_line_number": "$text",
-				"editor.indent_guide": "$muted88",
-				"editor.indent_guide_active": "$subtleaa",
-				"editor.invisible": "$muted",
-				"editor.wrap_guide": "$muted44",
-				"editor.active_wrap_guide": "$muted88",
-				"editor.document_highlight.read_background": "$foam1a",
-				"editor.document_highlight.write_background": "$muted66",
-				"editor.subheader.background": "$surface",
-				"editor.highlighted_line.background": "$surface",
-				"ghost_element.active": "$subtle",
-				"ghost_element.hover": "$highlightMed",
-				"ghost_element.selected": "$highlightHigh",
-				"ghost_element.background": "$highlightLow",
-				"border": "$surface",
-				"border.variant": "$surface",
-				"border.focused": "$surface",
-				"border.selected": "$surface",
-				"border.transparent": "transparent",
-				"border.disabled": "$surface",
-				"text": "$text",
-				"text.muted": "$muted",
-				"text.placeholder": "$muted",
-				"text.disabled": "$muted",
-				"text.accent": "$foam",
-				"surface.background": "$surface",
-				"elevated_surface.background": "$surface",
-				"panel.background": "$base",
-				"panel.focused_border": "$iris44",
-				"background": "$base",
-				"status_bar.background": "$base",
-				"title_bar.background": "$base",
-				"toolbar.background": "$base",
-				"tab_bar.background": "$surface",
-				"tab.inactive_background": "$surface",
-				"tab.active_background": "$base",
-				"element.background": "$surface",
-				"element.hover": "$overlay",
-				"element.active": "$overlay",
-				"element.selected": "$highlightHigh",
-				"element.disabled": "$overlay",
-				"drop_target.background": "$text80",
-				"predictive": "$subtle",
-				"modified": "$rose",
-				"ignored": "$muted",
-				"deleted": "$love",
-				"created": "$foam",
-				"warning": "$gold",
-				"warning.background": "$highlightLow",
-				"warning.border": "$gold",
-				"hint": "$subtle",
-				"hint.background": "$highlightLow",
-				"error": "$love",
-				"error.background": "$highlightLow",
-				"error.border": "$love",
-				"info": "$pine",
-				"scrollbar.thumb.background": "$highlightMed",
-				"scrollbar.thumb.hover_background": "$surface",
-				"scrollbar.thumb.border": "$highlightLow",
-				"scrollbar.track.background": "#00000000",
-				"scrollbar.track.border": "$highlightLow",
-				"terminal.background": "$base",
-				"terminal.foreground": "$text",
-				"terminal.bright_foreground": "$text",
-				"terminal.dim_foreground": "$base",
-				"terminal.ansi.black": "$highlightLow",
-				"terminal.ansi.bright_black": "$subtle",
-				"terminal.ansi.dim_black": "$text",
-				"terminal.ansi.red": "$love",
-				"terminal.ansi.bright_red": "$love",
-				"terminal.ansi.dim_red": "$love",
-				"terminal.ansi.green": "$pine",
-				"terminal.ansi.bright_green": "$pine",
-				"terminal.ansi.dim_green": "$pine",
-				"terminal.ansi.yellow": "$gold",
-				"terminal.ansi.bright_yellow": "$gold",
-				"terminal.ansi.dim_yellow": "$gold",
-				"terminal.ansi.blue": "$foam",
-				"terminal.ansi.bright_blue": "$foam",
-				"terminal.ansi.dim_blue": "$foam",
-				"terminal.ansi.magenta": "$iris",
-				"terminal.ansi.bright_magenta": "$iris",
-				"terminal.ansi.dim_magenta": "$iris",
-				"terminal.ansi.cyan": "$rose",
-				"terminal.ansi.bright_cyan": "$rose",
-				"terminal.ansi.dim_cyan": "$rose",
-				"terminal.ansi.white": "$text",
-				"terminal.ansi.bright_white": "$text",
-				"terminal.ansi.dim_white": "$text",
-				"link_text.hover": "$foam",
-				"conflict": "$gold",
-				"conflict.background": "$highlightLow",
-				"conflict.border": "$gold",
-				"created.background": "$highlightLow",
-				"created.border": "$foam",
-				"deleted.background": "$highlightLow",
-				"deleted.border": "$love",
-				"hidden.background": "$base",
-				"hidden.border": "$surface",
-				"ignored.background": "$base",
-				"ignored.border": "$surface",
-				"info.background": "$highlightLow",
-				"info.border": "$pine",
-				"modified.background": "$highlightLow",
-				"modified.border": "$rose",
-				"predictive.background": "$highlightLow",
-				"predictive.border": "$pine",
-				"renamed.background": "$highlightLow",
-				"renamed.border": "$pine",
-				"success": "$pine",
-				"success.background": "$highlightLow",
-				"success.border": "$pine",
-				"unreachable": "$subtle",
-				"unreachable.background": "$base",
-				"unreachable.border": "$surface",
-				"players": [
-					{
-						"cursor": "$text",
-						"background": "$text",
-						"selection": "$text22"
-					},
-					{
-						"cursor": "$foam",
-						"background": "$foam",
-						"selection": "$foam44"
-					},
-					{
-						"cursor": "$iris",
-						"background": "$iris",
-						"selection": "$iris44"
-					},
-					{
-						"cursor": "$pine",
-						"background": "$pine",
-						"selection": "$pine44"
-					},
-					{
-						"cursor": "$love",
-						"background": "$love",
-						"selection": "$love44"
-					}
-				],
-				"syntax": {
-					"attribute": {
-						"color": "$subtle"
-					},
-					"boolean": {
-						"color": "$rose"
-					},
-					"comment": {
-						"color": "$muted",
-						"font_style": "italic"
-					},
-					"comment.doc": {
-						"color": "$subtle"
-					},
-					"constant": {
-						"color": "$text"
-					},
-					"constructor": {
-						"color": "$love"
-					},
-					"embedded": {
-						"color": "$text"
-					},
-					"emphasis": {
-						"color": "$iris",
-						"font_style": "italic"
-					},
-					"emphasis.strong": {
-						"color": "$foam",
-						"font_weight": 700
-					},
-					"enum": {
-						"color": "$pine"
-					},
-					"function": {
-						"color": "$rose"
-					},
-					"hint": {
-						"color": "$iris"
-					},
-					"keyword": {
-						"color": "$pine"
-					},
-					"label": {
-						"color": "$rose"
-					},
-					"link_text": {
-						"color": "$iris"
-					},
-					"link_uri": {
-						"color": "$pine"
-					},
-					"number": {
-						"color": "$foam"
-					},
-					"operator": {
-						"color": "$subtle"
-					},
-					"predictive": {
-						"color": "$subtle"
-					},
-					"preproc": {
-						"color": "$gold"
-					},
-					"primary": {
-						"color": "$iris"
-					},
-					"property": {
-						"color": "$text"
-					},
-					"punctuation": {
-						"color": "$subtle"
-					},
-					"punctuation.bracket": {
-						"color": "#97495F"
-					},
-					"punctuation.delimiter": {
-						"color": "$subtle"
-					},
-					"punctuation.list_marker": {
-						"color": "$subtle",
-						"font_weight": 700
-					},
-					"punctuation.special": {
-						"color": "$pine"
-					},
-					"string": {
-						"color": "$gold"
-					},
-					"string.escape": {
-						"color": "$gold"
-					},
-					"string.regex": {
-						"color": "$gold"
-					},
-					"string.special": {
-						"color": "$pine"
-					},
-					"string.special.symbol": {
-						"color": "$pine"
-					},
-					"tag": {
-						"color": "$iris"
-					},
-					"text.literal": {
-						"color": "$gold"
-					},
-					"title": {
-						"color": "$love",
-						"font_weight": 700
-					},
-					"type": {
-						"color": "$foam"
-					},
-					"variable": {
-						"color": "$text"
-					},
-					"variable.special": {
-						"color": "$foam"
-					},
-					"variant": {
-						"color": "$rose"
-					}
-				}
-			}
-		}
-	]
+    "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+    "name": "$name",
+    "author": "Kainoa Kanter <kainoa@t1c.dev>",
+    "themes": [
+        {
+            "appearance": "$type",
+            "name": "$name",
+            "style": {
+                "editor.foreground": "$text",
+                "editor.background": "$base",
+                "editor.gutter.background": "$base",
+                "editor.active_line.background": "$surface",
+                "editor.line_number": "$muted",
+                "editor.active_line_number": "$text",
+                "editor.indent_guide": "$muted88",
+                "editor.indent_guide_active": "$subtleaa",
+                "editor.invisible": "$muted",
+                "editor.wrap_guide": "$muted44",
+                "editor.active_wrap_guide": "$muted88",
+                "editor.document_highlight.read_background": "$foam1a",
+                "editor.document_highlight.write_background": "$muted66",
+                "editor.subheader.background": "$surface",
+                "editor.highlighted_line.background": "$surface",
+                "ghost_element.active": "$subtle",
+                "ghost_element.hover": "$highlightMed",
+                "ghost_element.selected": "$highlightHigh",
+                "ghost_element.background": "$highlightLow",
+                "border": "$surface",
+                "border.variant": "$surface",
+                "border.focused": "$surface",
+                "border.selected": "$surface",
+                "border.transparent": "transparent",
+                "border.disabled": "$surface",
+                "text": "$text",
+                "text.muted": "$muted",
+                "text.placeholder": "$muted",
+                "text.disabled": "$muted",
+                "text.accent": "$foam",
+                "surface.background": "$surface",
+                "elevated_surface.background": "$surface",
+                "panel.background": "$base",
+                "panel.focused_border": "$iris44",
+                "background": "$base",
+                "status_bar.background": "$base",
+                "title_bar.background": "$base",
+                "toolbar.background": "$base",
+                "tab_bar.background": "$surface",
+                "tab.inactive_background": "$surface",
+                "tab.active_background": "$base",
+                "element.background": "$surface",
+                "element.hover": "$overlay",
+                "element.active": "$overlay",
+                "element.selected": "$highlightHigh",
+                "element.disabled": "$overlay",
+                "drop_target.background": "$text80",
+                "predictive": "$muted",
+                "modified": "$rose",
+                "ignored": "$muted",
+                "deleted": "$love",
+                "created": "$foam",
+                "warning": "$gold",
+                "warning.background": "$highlightLow",
+                "warning.border": "$gold",
+                "hint": "$subtle",
+                "hint.background": "$highlightLow",
+                "error": "$love",
+                "error.background": "$highlightLow",
+                "error.border": "$love",
+                "info": "$pine",
+                "scrollbar.thumb.background": "$highlightMed",
+                "scrollbar.thumb.hover_background": "$surface",
+                "scrollbar.thumb.border": "$highlightLow",
+                "scrollbar.track.background": "#00000000",
+                "scrollbar.track.border": "$highlightLow",
+                "terminal.background": "$base",
+                "terminal.foreground": "$text",
+                "terminal.bright_foreground": "$text",
+                "terminal.dim_foreground": "$base",
+                "terminal.ansi.black": "$highlightLow",
+                "terminal.ansi.bright_black": "$subtle",
+                "terminal.ansi.dim_black": "$text",
+                "terminal.ansi.red": "$love",
+                "terminal.ansi.bright_red": "$love",
+                "terminal.ansi.dim_red": "$love",
+                "terminal.ansi.green": "$pine",
+                "terminal.ansi.bright_green": "$pine",
+                "terminal.ansi.dim_green": "$pine",
+                "terminal.ansi.yellow": "$gold",
+                "terminal.ansi.bright_yellow": "$gold",
+                "terminal.ansi.dim_yellow": "$gold",
+                "terminal.ansi.blue": "$foam",
+                "terminal.ansi.bright_blue": "$foam",
+                "terminal.ansi.dim_blue": "$foam",
+                "terminal.ansi.magenta": "$iris",
+                "terminal.ansi.bright_magenta": "$iris",
+                "terminal.ansi.dim_magenta": "$iris",
+                "terminal.ansi.cyan": "$rose",
+                "terminal.ansi.bright_cyan": "$rose",
+                "terminal.ansi.dim_cyan": "$rose",
+                "terminal.ansi.white": "$text",
+                "terminal.ansi.bright_white": "$text",
+                "terminal.ansi.dim_white": "$text",
+                "link_text.hover": "$foam",
+                "conflict": "$gold",
+                "conflict.background": "$highlightLow",
+                "conflict.border": "$gold",
+                "created.background": "$highlightLow",
+                "created.border": "$foam",
+                "deleted.background": "$highlightLow",
+                "deleted.border": "$love",
+                "hidden.background": "$base",
+                "hidden.border": "$surface",
+                "ignored.background": "$base",
+                "ignored.border": "$surface",
+                "info.background": "$highlightLow",
+                "info.border": "$pine",
+                "modified.background": "$highlightLow",
+                "modified.border": "$rose",
+                "predictive.background": "$highlightLow",
+                "predictive.border": "$pine",
+                "renamed.background": "$highlightLow",
+                "renamed.border": "$pine",
+                "success": "$pine",
+                "success.background": "$highlightLow",
+                "success.border": "$pine",
+                "unreachable": "$subtle",
+                "unreachable.background": "$base",
+                "unreachable.border": "$surface",
+                "version_control.added": "$foam",
+                "version_control.deleted": "$love",
+                "version_control.modified": "$gold",
+                "version_control.conflict": "$rose",
+                "version_control.renamed": "$iris",
+                "version_control.ignored": "$muted",
+                "players": [
+                    {
+                        "cursor": "$text",
+                        "background": "$text",
+                        "selection": "$text22"
+                    },
+                    {
+                        "cursor": "$foam",
+                        "background": "$foam",
+                        "selection": "$foam44"
+                    },
+                    {
+                        "cursor": "$iris",
+                        "background": "$iris",
+                        "selection": "$iris44"
+                    },
+                    {
+                        "cursor": "$pine",
+                        "background": "$pine",
+                        "selection": "$pine44"
+                    },
+                    {
+                        "cursor": "$love",
+                        "background": "$love",
+                        "selection": "$love44"
+                    }
+                ],
+                "syntax": {
+                    "attribute": {
+                        "color": "$subtle"
+                    },
+                    "boolean": {
+                        "color": "$rose"
+                    },
+                    "comment": {
+                        "color": "$muted",
+                        "font_style": "italic"
+                    },
+                    "comment.doc": {
+                        "color": "$subtle"
+                    },
+                    "constant": {
+                        "color": "$text"
+                    },
+                    "constructor": {
+                        "color": "$love"
+                    },
+                    "embedded": {
+                        "color": "$text"
+                    },
+                    "emphasis": {
+                        "color": "$iris",
+                        "font_style": "italic"
+                    },
+                    "emphasis.strong": {
+                        "color": "$foam",
+                        "font_weight": 700
+                    },
+                    "enum": {
+                        "color": "$pine"
+                    },
+                    "function": {
+                        "color": "$rose"
+                    },
+                    "hint": {
+                        "color": "$iris"
+                    },
+                    "keyword": {
+                        "color": "$pine"
+                    },
+                    "label": {
+                        "color": "$rose"
+                    },
+                    "link_text": {
+                        "color": "$iris"
+                    },
+                    "link_uri": {
+                        "color": "$pine"
+                    },
+                    "number": {
+                        "color": "$foam"
+                    },
+                    "operator": {
+                        "color": "$subtle"
+                    },
+                    "predictive": {
+                        "color": "$subtle"
+                    },
+                    "preproc": {
+                        "color": "$gold"
+                    },
+                    "primary": {
+                        "color": "$iris"
+                    },
+                    "property": {
+                        "color": "$text"
+                    },
+                    "punctuation": {
+                        "color": "$subtle"
+                    },
+                    "punctuation.bracket": {
+                        "color": "$subtle"
+                    },
+                    "punctuation.delimiter": {
+                        "color": "$subtle"
+                    },
+                    "punctuation.list_marker": {
+                        "color": "$subtle",
+                        "font_weight": 700
+                    },
+                    "ion.special": {
+                        "color": "$pine"
+                    },
+                    "string": {
+                        "color": "$gold"
+                    },
+                    "string.escape": {
+                        "color": "$gold"
+                    },
+                    "string.regex": {
+                        "color": "$gold"
+                    },
+                    "string.special": {
+                        "color": "$pine"
+                    },
+                    "string.special.symbol": {
+                        "color": "$pine"
+                    },
+                    "tag": {
+                        "color": "$iris"
+                    },
+                    "text.literal": {
+                        "color": "$gold"
+                    },
+                    "title": {
+                        "color": "$love",
+                        "font_weight": 700
+                    },
+                    "type": {
+                        "color": "$foam"
+                    },
+                    "variable": {
+                        "color": "$text"
+                    },
+                    "variable.special": {
+                        "color": "$foam"
+                    },
+                    "variant": {
+                        "color": "$rose"
+                    }
+                }
+            }
+        }
+    ]
 }
