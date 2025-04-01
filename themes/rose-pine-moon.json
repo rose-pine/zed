@@ -44,6 +44,7 @@
                 "background": "#232136",
                 "status_bar.background": "#232136",
                 "title_bar.background": "#232136",
+                "title_bar.inactive_background": "#232136",
                 "toolbar.background": "#232136",
                 "tab_bar.background": "#2a273f",
                 "tab.inactive_background": "#2a273f",
