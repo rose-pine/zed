@@ -44,6 +44,7 @@
                 "background": "$base",
                 "status_bar.background": "$base",
                 "title_bar.background": "$base",
+                "title_bar.inactive_background": "$base",
                 "toolbar.background": "$base",
                 "tab_bar.background": "$surface",
                 "tab.inactive_background": "$surface",
