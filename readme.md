@@ -37,8 +37,9 @@
 
 ## Thanks to
 
-- [ThatOneCalculator](https://github.com/thatonecalculator)
+- [ThatOneCalculator (Kainoa)](https://github.com/thatonecalculator)
 - [Aaliyah Harper](https://github.com/aileks)
+- [Amine Chaouki](https://github.com/coaoac)
 
 <!-- #rose-pine-build -->
 
