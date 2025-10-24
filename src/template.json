@@ -134,6 +134,8 @@
                 "version_control.conflict": "$rose",
                 "version_control.renamed": "$iris",
                 "version_control.ignored": "$muted",
+                "version_control.conflict_marker.ours": "$gold33",
+                "version_control.conflict_marker.theirs": "$foam33",
                 "players": [
                     {
                         "cursor": "$text",
