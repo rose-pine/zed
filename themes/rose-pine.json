@@ -134,6 +134,8 @@
                 "version_control.conflict": "#ebbcba",
                 "version_control.renamed": "#c4a7e7",
                 "version_control.ignored": "#6e6a86",
+                "version_control.conflict_marker.ours": "#f6c17733",
+                "version_control.conflict_marker.theirs": "#9ccfd833",
                 "players": [
                     {
                         "cursor": "#e0def4",
