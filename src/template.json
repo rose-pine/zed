@@ -22,6 +22,8 @@
                 "editor.document_highlight.write_background": "$muted66",
                 "editor.subheader.background": "$surface",
                 "editor.highlighted_line.background": "$surface",
+                "search.match_background": "$gold4d",
+                "search.active_match_background": "$gold80",
                 "ghost_element.active": "$subtle",
                 "ghost_element.hover": "$highlightMed",
                 "ghost_element.selected": "$highlightHigh",
@@ -33,7 +35,7 @@
                 "border.transparent": "transparent",
                 "border.disabled": "$surface",
                 "text": "$text",
-                "text.muted": "$muted",
+                "text.muted": "$subtle",
                 "text.placeholder": "$muted",
                 "text.disabled": "$muted",
                 "text.accent": "$foam",
@@ -69,11 +71,11 @@
                 "error.background": "$highlightLow",
                 "error.border": "$love",
                 "info": "$pine",
-                "scrollbar.thumb.background": "$highlightMed4d",
-                "scrollbar.thumb.hover_background": "$surface4d",
-                "scrollbar.thumb.border": "$highlightLow4d",
+                "scrollbar.thumb.background": "$muted",
+                "scrollbar.thumb.hover_background": "$subtle",
+                "scrollbar.thumb.border": "$muted",
                 "scrollbar.track.background": "#00000000",
-                "scrollbar.track.border": "$highlightLow4d",
+                "scrollbar.track.border": "#00000000",
                 "terminal.background": "$base",
                 "terminal.foreground": "$text",
                 "terminal.bright_foreground": "$text",
@@ -181,7 +183,7 @@
                 ],
                 "syntax": {
                     "attribute": {
-                        "color": "$subtle"
+                        "color": "$iris"
                     },
                     "boolean": {
                         "color": "$rose"
@@ -194,10 +196,10 @@
                         "color": "$subtle"
                     },
                     "constant": {
-                        "color": "$text"
+                        "color": "$gold"
                     },
                     "constructor": {
-                        "color": "$love"
+                        "color": "$foam"
                     },
                     "embedded": {
                         "color": "$text"
@@ -223,7 +225,7 @@
                         "color": "$pine"
                     },
                     "label": {
-                        "color": "$rose"
+                        "color": "$foam"
                     },
                     "link_text": {
                         "color": "$iris"
@@ -232,7 +234,7 @@
                         "color": "$pine"
                     },
                     "number": {
-                        "color": "$foam"
+                        "color": "$gold"
                     },
                     "operator": {
                         "color": "$subtle"
@@ -247,7 +249,7 @@
                         "color": "$iris"
                     },
                     "property": {
-                        "color": "$text"
+                        "color": "$foam"
                     },
                     "punctuation": {
                         "color": "$subtle"
@@ -262,17 +264,17 @@
                         "color": "$subtle",
                         "font_weight": 700
                     },
-                    "ion.special": {
-                        "color": "$pine"
+                    "punctuation.special": {
+                        "color": "$subtle"
                     },
                     "string": {
                         "color": "$gold"
                     },
                     "string.escape": {
-                        "color": "$gold"
+                        "color": "$pine"
                     },
                     "string.regex": {
-                        "color": "$gold"
+                        "color": "$iris"
                     },
                     "string.special": {
                         "color": "$pine"
@@ -281,7 +283,7 @@
                         "color": "$pine"
                     },
                     "tag": {
-                        "color": "$iris"
+                        "color": "$foam"
                     },
                     "text.literal": {
                         "color": "$gold"
@@ -297,7 +299,7 @@
                         "color": "$text"
                     },
                     "variable.special": {
-                        "color": "$foam"
+                        "color": "$love"
                     },
                     "variant": {
                         "color": "$rose"

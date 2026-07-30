@@ -22,6 +22,8 @@
                 "editor.document_highlight.write_background": "#9893a566",
                 "editor.subheader.background": "#fffaf3",
                 "editor.highlighted_line.background": "#fffaf3",
+                "search.match_background": "#ea9d344d",
+                "search.active_match_background": "#ea9d3480",
                 "ghost_element.active": "#797593",
                 "ghost_element.hover": "#dfdad9",
                 "ghost_element.selected": "#cecacd",
@@ -33,7 +35,7 @@
                 "border.transparent": "transparent",
                 "border.disabled": "#fffaf3",
                 "text": "#575279",
-                "text.muted": "#9893a5",
+                "text.muted": "#797593",
                 "text.placeholder": "#9893a5",
                 "text.disabled": "#9893a5",
                 "text.accent": "#56949f",
@@ -69,11 +71,11 @@
                 "error.background": "#f4ede8",
                 "error.border": "#b4637a",
                 "info": "#286983",
-                "scrollbar.thumb.background": "#dfdad94d",
-                "scrollbar.thumb.hover_background": "#fffaf34d",
-                "scrollbar.thumb.border": "#f4ede84d",
+                "scrollbar.thumb.background": "#9893a5",
+                "scrollbar.thumb.hover_background": "#797593",
+                "scrollbar.thumb.border": "#9893a5",
                 "scrollbar.track.background": "#00000000",
-                "scrollbar.track.border": "#f4ede84d",
+                "scrollbar.track.border": "#00000000",
                 "terminal.background": "#faf4ed",
                 "terminal.foreground": "#575279",
                 "terminal.bright_foreground": "#575279",
@@ -181,7 +183,7 @@
                 ],
                 "syntax": {
                     "attribute": {
-                        "color": "#797593"
+                        "color": "#907aa9"
                     },
                     "boolean": {
                         "color": "#d7827e"
@@ -194,10 +196,10 @@
                         "color": "#797593"
                     },
                     "constant": {
-                        "color": "#575279"
+                        "color": "#ea9d34"
                     },
                     "constructor": {
-                        "color": "#b4637a"
+                        "color": "#56949f"
                     },
                     "embedded": {
                         "color": "#575279"
@@ -223,7 +225,7 @@
                         "color": "#286983"
                     },
                     "label": {
-                        "color": "#d7827e"
+                        "color": "#56949f"
                     },
                     "link_text": {
                         "color": "#907aa9"
@@ -232,7 +234,7 @@
                         "color": "#286983"
                     },
                     "number": {
-                        "color": "#56949f"
+                        "color": "#ea9d34"
                     },
                     "operator": {
                         "color": "#797593"
@@ -247,7 +249,7 @@
                         "color": "#907aa9"
                     },
                     "property": {
-                        "color": "#575279"
+                        "color": "#56949f"
                     },
                     "punctuation": {
                         "color": "#797593"
@@ -262,17 +264,17 @@
                         "color": "#797593",
                         "font_weight": 700
                     },
-                    "ion.special": {
-                        "color": "#286983"
+                    "punctuation.special": {
+                        "color": "#797593"
                     },
                     "string": {
                         "color": "#ea9d34"
                     },
                     "string.escape": {
-                        "color": "#ea9d34"
+                        "color": "#286983"
                     },
                     "string.regex": {
-                        "color": "#ea9d34"
+                        "color": "#907aa9"
                     },
                     "string.special": {
                         "color": "#286983"
@@ -281,7 +283,7 @@
                         "color": "#286983"
                     },
                     "tag": {
-                        "color": "#907aa9"
+                        "color": "#56949f"
                     },
                     "text.literal": {
                         "color": "#ea9d34"
@@ -297,7 +299,7 @@
                         "color": "#575279"
                     },
                     "variable.special": {
-                        "color": "#56949f"
+                        "color": "#b4637a"
                     },
                     "variant": {
                         "color": "#d7827e"
