@@ -7,6 +7,14 @@
             "appearance": "dark",
             "name": "Rosé Pine",
             "style": {
+                "accents": [
+                    "#eb6f92",
+                    "#f6c177",
+                    "#ebbcba",
+                    "#31748f",
+                    "#9ccfd8",
+                    "#c4a7e7"
+                ],
                 "editor.foreground": "#e0def4",
                 "editor.background": "#191724",
                 "editor.gutter.background": "#191724",
@@ -29,7 +37,7 @@
                 "ghost_element.selected": "#524f67",
                 "ghost_element.background": "#21202e",
                 "border": "#1f1d2e",
-                "border.variant": "#1f1d2e",
+                "border.variant": "#524f67",
                 "border.focused": "#1f1d2e",
                 "border.selected": "#1f1d2e",
                 "border.transparent": "transparent",
@@ -196,7 +204,13 @@
                         "color": "#908caa"
                     },
                     "constant": {
-                        "color": "#f6c177"
+                        "color": "#ebbcba"
+                    },
+                    "constant.builtin": {
+                        "color": "#ebbcba"
+                    },
+                    "constant.macro": {
+                        "color": "#ebbcba"
                     },
                     "constructor": {
                         "color": "#9ccfd8"
@@ -213,15 +227,39 @@
                         "font_weight": 700
                     },
                     "enum": {
-                        "color": "#31748f"
+                        "color": "#9ccfd8"
                     },
                     "function": {
+                        "color": "#ebbcba"
+                    },
+                    "function.builtin": {
+                        "color": "#ebbcba"
+                    },
+                    "function.call": {
+                        "color": "#ebbcba"
+                    },
+                    "function.decorator": {
+                        "color": "#c4a7e7"
+                    },
+                    "function.macro": {
+                        "color": "#ebbcba"
+                    },
+                    "function.method": {
+                        "color": "#ebbcba"
+                    },
+                    "function.method.call": {
                         "color": "#ebbcba"
                     },
                     "hint": {
                         "color": "#c4a7e7"
                     },
                     "keyword": {
+                        "color": "#31748f"
+                    },
+                    "keyword.modifier": {
+                        "color": "#31748f"
+                    },
+                    "keyword.preproc": {
                         "color": "#31748f"
                     },
                     "label": {
@@ -233,8 +271,14 @@
                     "link_uri": {
                         "color": "#31748f"
                     },
+                    "module": {
+                        "color": "#9ccfd8"
+                    },
+                    "namespace": {
+                        "color": "#9ccfd8"
+                    },
                     "number": {
-                        "color": "#f6c177"
+                        "color": "#ebbcba"
                     },
                     "operator": {
                         "color": "#908caa"
@@ -243,13 +287,13 @@
                         "color": "#908caa"
                     },
                     "preproc": {
-                        "color": "#f6c177"
+                        "color": "#31748f"
                     },
                     "primary": {
                         "color": "#c4a7e7"
                     },
                     "property": {
-                        "color": "#9ccfd8"
+                        "color": "#c4a7e7"
                     },
                     "punctuation": {
                         "color": "#908caa"
@@ -271,19 +315,31 @@
                         "color": "#f6c177"
                     },
                     "string.escape": {
-                        "color": "#31748f"
+                        "color": "#c4a7e7"
                     },
                     "string.regex": {
                         "color": "#c4a7e7"
                     },
                     "string.special": {
-                        "color": "#31748f"
+                        "color": "#c4a7e7"
                     },
                     "string.special.symbol": {
-                        "color": "#31748f"
+                        "color": "#f6c177"
                     },
                     "tag": {
                         "color": "#9ccfd8"
+                    },
+                    "tag.doctype": {
+                        "color": "#9ccfd8"
+                    },
+                    "tag.attribute": {
+                        "color": "#c4a7e7"
+                    },
+                    "tag.delimiter": {
+                        "color": "#908caa"
+                    },
+                    "text": {
+                        "color": "#e0def4"
                     },
                     "text.literal": {
                         "color": "#f6c177"
@@ -295,8 +351,56 @@
                     "type": {
                         "color": "#9ccfd8"
                     },
+                    "type.builtin": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.class": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.class.definition": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.definition": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.enum": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.enum.definition": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.enum.member": {
+                        "color": "#ebbcba"
+                    },
+                    "type.event": {
+                        "color": "#c4a7e7"
+                    },
+                    "type.interface": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.interface.definition": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.parameter": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.parameter.definition": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.struct": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.struct.definition": {
+                        "color": "#9ccfd8"
+                    },
                     "variable": {
                         "color": "#e0def4"
+                    },
+                    "variable.builtin": {
+                        "color": "#eb6f92"
+                    },
+                    "variable.parameter": {
+                        "color": "#c4a7e7"
                     },
                     "variable.special": {
                         "color": "#eb6f92"

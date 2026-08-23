@@ -7,6 +7,14 @@
             "appearance": "dark",
             "name": "Rosé Pine Moon",
             "style": {
+                "accents": [
+                    "#eb6f92",
+                    "#f6c177",
+                    "#ea9a97",
+                    "#3e8fb0",
+                    "#9ccfd8",
+                    "#c4a7e7"
+                ],
                 "editor.foreground": "#e0def4",
                 "editor.background": "#232136",
                 "editor.gutter.background": "#232136",
@@ -29,7 +37,7 @@
                 "ghost_element.selected": "#56526e",
                 "ghost_element.background": "#2a283e",
                 "border": "#2a273f",
-                "border.variant": "#2a273f",
+                "border.variant": "#56526e",
                 "border.focused": "#2a273f",
                 "border.selected": "#2a273f",
                 "border.transparent": "transparent",
@@ -196,7 +204,13 @@
                         "color": "#908caa"
                     },
                     "constant": {
-                        "color": "#f6c177"
+                        "color": "#ea9a97"
+                    },
+                    "constant.builtin": {
+                        "color": "#ea9a97"
+                    },
+                    "constant.macro": {
+                        "color": "#ea9a97"
                     },
                     "constructor": {
                         "color": "#9ccfd8"
@@ -213,15 +227,39 @@
                         "font_weight": 700
                     },
                     "enum": {
-                        "color": "#3e8fb0"
+                        "color": "#9ccfd8"
                     },
                     "function": {
+                        "color": "#ea9a97"
+                    },
+                    "function.builtin": {
+                        "color": "#ea9a97"
+                    },
+                    "function.call": {
+                        "color": "#ea9a97"
+                    },
+                    "function.decorator": {
+                        "color": "#c4a7e7"
+                    },
+                    "function.macro": {
+                        "color": "#ea9a97"
+                    },
+                    "function.method": {
+                        "color": "#ea9a97"
+                    },
+                    "function.method.call": {
                         "color": "#ea9a97"
                     },
                     "hint": {
                         "color": "#c4a7e7"
                     },
                     "keyword": {
+                        "color": "#3e8fb0"
+                    },
+                    "keyword.modifier": {
+                        "color": "#3e8fb0"
+                    },
+                    "keyword.preproc": {
                         "color": "#3e8fb0"
                     },
                     "label": {
@@ -233,8 +271,14 @@
                     "link_uri": {
                         "color": "#3e8fb0"
                     },
+                    "module": {
+                        "color": "#9ccfd8"
+                    },
+                    "namespace": {
+                        "color": "#9ccfd8"
+                    },
                     "number": {
-                        "color": "#f6c177"
+                        "color": "#ea9a97"
                     },
                     "operator": {
                         "color": "#908caa"
@@ -243,13 +287,13 @@
                         "color": "#908caa"
                     },
                     "preproc": {
-                        "color": "#f6c177"
+                        "color": "#3e8fb0"
                     },
                     "primary": {
                         "color": "#c4a7e7"
                     },
                     "property": {
-                        "color": "#9ccfd8"
+                        "color": "#c4a7e7"
                     },
                     "punctuation": {
                         "color": "#908caa"
@@ -271,19 +315,31 @@
                         "color": "#f6c177"
                     },
                     "string.escape": {
-                        "color": "#3e8fb0"
+                        "color": "#c4a7e7"
                     },
                     "string.regex": {
                         "color": "#c4a7e7"
                     },
                     "string.special": {
-                        "color": "#3e8fb0"
+                        "color": "#c4a7e7"
                     },
                     "string.special.symbol": {
-                        "color": "#3e8fb0"
+                        "color": "#f6c177"
                     },
                     "tag": {
                         "color": "#9ccfd8"
+                    },
+                    "tag.doctype": {
+                        "color": "#9ccfd8"
+                    },
+                    "tag.attribute": {
+                        "color": "#c4a7e7"
+                    },
+                    "tag.delimiter": {
+                        "color": "#908caa"
+                    },
+                    "text": {
+                        "color": "#e0def4"
                     },
                     "text.literal": {
                         "color": "#f6c177"
@@ -295,8 +351,56 @@
                     "type": {
                         "color": "#9ccfd8"
                     },
+                    "type.builtin": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.class": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.class.definition": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.definition": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.enum": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.enum.definition": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.enum.member": {
+                        "color": "#ea9a97"
+                    },
+                    "type.event": {
+                        "color": "#c4a7e7"
+                    },
+                    "type.interface": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.interface.definition": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.parameter": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.parameter.definition": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.struct": {
+                        "color": "#9ccfd8"
+                    },
+                    "type.struct.definition": {
+                        "color": "#9ccfd8"
+                    },
                     "variable": {
                         "color": "#e0def4"
+                    },
+                    "variable.builtin": {
+                        "color": "#eb6f92"
+                    },
+                    "variable.parameter": {
+                        "color": "#c4a7e7"
                     },
                     "variable.special": {
                         "color": "#eb6f92"
