@@ -25,15 +25,15 @@
 
 ### Rosé Pine
 
-![Rosé Pine editor preview](https://github.com/rose-pine/zed/assets/44733677/78cc31b4-6e76-4f2c-aa38-3d035b6a8a6d)
+![Rosé Pine editor preview](https://github.com/user-attachments/assets/85309234-173a-485a-b098-8721e2048dfc)
 
 ### Rosé Pine Moon
 
-![Rosé Pine Moon editor preview](https://github.com/rose-pine/zed/assets/44733677/28422177-eb59-4dfa-be22-3c933dae7976)
+![Rosé Pine Moon editor preview](https://github.com/user-attachments/assets/8a03deca-8253-4b86-b38f-a583b2551831)
 
 ### Rosé Pine Dawn
 
-![Rosé Pine Dawn editor preview](https://github.com/rose-pine/zed/assets/44733677/044b63e7-c3e4-4ade-8868-919ee81caf93)
+![Rosé Pine Dawn editor preview](https://github.com/user-attachments/assets/2bc9f46b-1408-4f58-b825-a2d50fb0b56b)
 
 ## Thanks to
 
