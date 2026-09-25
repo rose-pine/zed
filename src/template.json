@@ -7,6 +7,14 @@
             "appearance": "$type",
             "name": "$name",
             "style": {
+                "accents": [
+                    "$love",
+                    "$gold",
+                    "$rose",
+                    "$pine",
+                    "$foam",
+                    "$iris"
+                ],
                 "editor.foreground": "$text",
                 "editor.background": "$base",
                 "editor.gutter.background": "$base",
@@ -29,7 +37,7 @@
                 "ghost_element.selected": "$highlightHigh",
                 "ghost_element.background": "$highlightLow",
                 "border": "$surface",
-                "border.variant": "$surface",
+                "border.variant": "$highlightHigh",
                 "border.focused": "$surface",
                 "border.selected": "$surface",
                 "border.transparent": "transparent",
@@ -196,7 +204,13 @@
                         "color": "$subtle"
                     },
                     "constant": {
-                        "color": "$gold"
+                        "color": "$rose"
+                    },
+                    "constant.builtin": {
+                        "color": "$rose"
+                    },
+                    "constant.macro": {
+                        "color": "$rose"
                     },
                     "constructor": {
                         "color": "$foam"
@@ -213,15 +227,39 @@
                         "font_weight": 700
                     },
                     "enum": {
-                        "color": "$pine"
+                        "color": "$foam"
                     },
                     "function": {
+                        "color": "$rose"
+                    },
+                    "function.builtin": {
+                        "color": "$rose"
+                    },
+                    "function.call": {
+                        "color": "$rose"
+                    },
+                    "function.decorator": {
+                        "color": "$iris"
+                    },
+                    "function.macro": {
+                        "color": "$rose"
+                    },
+                    "function.method": {
+                        "color": "$rose"
+                    },
+                    "function.method.call": {
                         "color": "$rose"
                     },
                     "hint": {
                         "color": "$iris"
                     },
                     "keyword": {
+                        "color": "$pine"
+                    },
+                    "keyword.modifier": {
+                        "color": "$pine"
+                    },
+                    "keyword.preproc": {
                         "color": "$pine"
                     },
                     "label": {
@@ -233,8 +271,14 @@
                     "link_uri": {
                         "color": "$pine"
                     },
+                    "module": {
+                        "color": "$foam"
+                    },
+                    "namespace": {
+                        "color": "$foam"
+                    },
                     "number": {
-                        "color": "$gold"
+                        "color": "$rose"
                     },
                     "operator": {
                         "color": "$subtle"
@@ -243,13 +287,13 @@
                         "color": "$subtle"
                     },
                     "preproc": {
-                        "color": "$gold"
+                        "color": "$pine"
                     },
                     "primary": {
                         "color": "$iris"
                     },
                     "property": {
-                        "color": "$foam"
+                        "color": "$iris"
                     },
                     "punctuation": {
                         "color": "$subtle"
@@ -271,19 +315,31 @@
                         "color": "$gold"
                     },
                     "string.escape": {
-                        "color": "$pine"
+                        "color": "$iris"
                     },
                     "string.regex": {
                         "color": "$iris"
                     },
                     "string.special": {
-                        "color": "$pine"
+                        "color": "$iris"
                     },
                     "string.special.symbol": {
-                        "color": "$pine"
+                        "color": "$gold"
                     },
                     "tag": {
                         "color": "$foam"
+                    },
+                    "tag.doctype": {
+                        "color": "$foam"
+                    },
+                    "tag.attribute": {
+                        "color": "$iris"
+                    },
+                    "tag.delimiter": {
+                        "color": "$subtle"
+                    },
+                    "text": {
+                        "color": "$text"
                     },
                     "text.literal": {
                         "color": "$gold"
@@ -295,8 +351,56 @@
                     "type": {
                         "color": "$foam"
                     },
+                    "type.builtin": {
+                        "color": "$foam"
+                    },
+                    "type.class": {
+                        "color": "$foam"
+                    },
+                    "type.class.definition": {
+                        "color": "$foam"
+                    },
+                    "type.definition": {
+                        "color": "$foam"
+                    },
+                    "type.enum": {
+                        "color": "$foam"
+                    },
+                    "type.enum.definition": {
+                        "color": "$foam"
+                    },
+                    "type.enum.member": {
+                        "color": "$rose"
+                    },
+                    "type.event": {
+                        "color": "$iris"
+                    },
+                    "type.interface": {
+                        "color": "$foam"
+                    },
+                    "type.interface.definition": {
+                        "color": "$foam"
+                    },
+                    "type.parameter": {
+                        "color": "$foam"
+                    },
+                    "type.parameter.definition": {
+                        "color": "$foam"
+                    },
+                    "type.struct": {
+                        "color": "$foam"
+                    },
+                    "type.struct.definition": {
+                        "color": "$foam"
+                    },
                     "variable": {
                         "color": "$text"
+                    },
+                    "variable.builtin": {
+                        "color": "$love"
+                    },
+                    "variable.parameter": {
+                        "color": "$iris"
                     },
                     "variable.special": {
                         "color": "$love"
