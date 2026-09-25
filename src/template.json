@@ -36,7 +36,7 @@
                 "ghost_element.hover": "$highlightMed",
                 "ghost_element.selected": "$highlightHigh",
                 "ghost_element.background": "$highlightLow",
-                "border": "$surface",
+                "border": "$highlightMed",
                 "border.variant": "$highlightHigh",
                 "border.focused": "$surface",
                 "border.selected": "$surface",
